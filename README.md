@@ -1,6 +1,33 @@
 # tstllc-java7
 A small java Docker image based on [Alpine Linux](http://alpinelinux.org/).
 
+## REQUIREMENTS
+Docker Containers:
+	* tstllc-base:latest
+	* tstllc-base-glibc:latest
+
+## DETAILS
+* 
+
+## CONTENTS
+```
+IMAGE-NAME                      SHORT-HASH      SIZE
+-------------------------------------------------------
+tstllc-java7:7.121.2.6.8-r0	aa3bc9c376f0	147 MB
+tstllc-java7:latest		aa3bc9c376f0	147 MB
+tstllc-java7:latest-test	9b59b43b2f80	147 MB
+```
+
+## BUILD
+how to get these images into your environment for development;
+
+```bash
+docker build --tag 'tstllc-java7:7.121.2.6.8-r0' .;
+docker build --tag 'tstllc-java7:latest' .;
+```
+
+
+
 ## TESTS
 ```bash
 Lorens-MacBook-Pro:tstllc-java7 llisk$ docker build --tag 'tstllc-java7:latest-test' ./tests/;

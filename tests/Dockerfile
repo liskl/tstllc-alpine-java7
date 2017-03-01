@@ -1,6 +1,5 @@
 FROM tstllc-java7:latest
 
-#COPY helloworld.jar helloworld.jar
 COPY helloworld.java helloworld.java
 
 RUN javac helloworld.java
