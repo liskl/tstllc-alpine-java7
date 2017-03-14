@@ -50,3 +50,5 @@ Successfully built 9b59b43b2f80
 Lorens-MacBook-Pro:tstllc-java7 llisk$ docker run --rm tstllc-java7:latest-test;
 Hello world!
 ```
+
+temp
