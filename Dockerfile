@@ -1,4 +1,4 @@
-FROM registry.liskl.com/tstllc/alpine-base-glibc:latest
+FROM registry.tstllc.net/llisk/alpine-base-glibc:latest
 
 # Dev-Ops Team
 MAINTAINER dl_team_devops@tstllc.net
